@@ -27,14 +27,6 @@
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Android Studio Electric Eel or later
-- Android SDK 29+
-- Internet connection (for translation API)
-
-
 🛠 Built With
 Kotlin – Primary language
 
@@ -68,6 +60,13 @@ Garv Kumar
 📎 https://github.com/garvboiiiii
 
 “Thanks to OpenAI’s ChatGPT for help during development”
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Android Studio Electric Eel or later
+- Android SDK 29+
+- Internet connection (for translation API)
 
 
 
