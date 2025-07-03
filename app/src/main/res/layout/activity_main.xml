@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Label for Source Language -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌐 Language of Input"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Source Language Dropdown -->
+    <Spinner
+        android:id="@+id/sourceLangSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Label for Target Language -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎯 Translate To"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <!-- Target Language Dropdown -->
+    <Spinner
+        android:id="@+id/targetLangSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+
+    <!-- Swap Button -->
+    <Button
+        android:id="@+id/swapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⇄ Swap Languages"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"/>
+
+
+    <!-- Text Input and Mic Button in Horizontal Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <EditText
+            android:id="@+id/inputText"
+            android:hint="Enter or speak text"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/micBtn"
+            android:text="🎤"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Translate Button -->
+    <Button
+        android:id="@+id/translateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Translated Text Output -->
+    <TextView
+        android:id="@+id/resultText"
+        android:text="Translation will appear here"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="#EFEFEF"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Speak Translated Text -->
+    <Button
+        android:id="@+id/speakBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔊 Speak Translation" />
+
+</LinearLayout>
