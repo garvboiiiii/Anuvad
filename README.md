@@ -62,7 +62,7 @@ Thanks to:
 
 ---
 
-👤 Author
+##👤 Author
 Garv Kumar
 📎 github.com/garvboiiiii
 
@@ -84,4 +84,4 @@ Garv Kumar
 
 3. Click ▶ (Run) to install on an emulator or device
 
-
+```` ``` ````bash
