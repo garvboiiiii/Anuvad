@@ -62,7 +62,7 @@ Thanks to:
 
 ---
 
-##👤 Author
+## 👤 Author
 Garv Kumar
 📎 github.com/garvboiiiii
 
