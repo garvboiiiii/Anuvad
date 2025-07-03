@@ -34,6 +34,43 @@
 - Android SDK 29+
 - Internet connection (for translation API)
 
+
+🛠 Built With
+Kotlin – Primary language
+
+MyMemory API – Free translation API
+
+OkHttp – HTTP networking
+
+Android SpeechRecognizer & TextToSpeech – Native voice interaction
+
+🎨 App Icon Attribution
+<div align="left">
+Icon used in app:
+
+"Languages" icon by Freepik
+From Flaticon.com
+Licensed under Flaticon Free License
+
+</div>
+📄 License
+This project is open source and available under the MIT License.
+
+🙌 Acknowledgements
+Thanks to:
+
+Freepik for the app icon
+
+MyMemory API for free translations
+
+👤 Author
+Garv Kumar
+📎 https://github.com/garvboiiiii
+
+“Thanks to OpenAI’s ChatGPT for help during development”
+
+
+
 ### Steps to Run
 ```bash
 1. Clone this repo:
