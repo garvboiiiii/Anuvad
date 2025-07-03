@@ -27,12 +27,6 @@
 
 ---
 
-## 📷 Screenshots
-
-> *(Add screenshots here if available, e.g. `/res/screenshot_1.png`)*
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
