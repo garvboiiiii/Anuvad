@@ -57,8 +57,7 @@ This project is open source and available under the **MIT License**.
 
 Thanks to:
 - [Freepik](https://www.flaticon.com/authors/freepik) for the app icon  
-- [MyMemory API](https://mymemory.translated.net/doc) for free translations  
-- **OpenAI ChatGPT** for guidance during development
+- [MyMemory API](https://mymemory.translated.net/doc) for free translations
 
 ---
 
